@@ -32,18 +32,9 @@ const Home: NextPage = () => {
                   appType={data.hero.appType}
                   tagLine={data.hero.tagLine}
                   description={data.hero.description}
-                   mainActionText={
-                    <Link href="https://noonoo44.tv">
-                      <a>
-                        {data.hero.mainActionText}
-                      </a>
-                    </Link>
-                  }
-                  extraActionText={
-                    <a href="https://noonoo44.tv" target="_blank">
-                      {data.hero.extraActionText}
-                    </a>
-                  }
+                  mainActionText={data.hero.mainActionText}
+                  extraActionText={data.hero.extraActionText}
+                 
                 />
                 
             </div>
