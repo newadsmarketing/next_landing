@@ -1,6 +1,5 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import Link from 'next/link';
 import { data } from "../content/data";
 
 import logo from "../src/assets/logo.png";
@@ -32,13 +31,8 @@ const Home: NextPage = () => {
                   appType={data.hero.appType}
                   tagLine={data.hero.tagLine}
                   description={data.hero.description}
-                  mainActionText={<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                  {data.hero.extraActionText}
-                </a>}
-                  extraActionText={<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                  {data.hero.extraActionText}
-                </a>}
-                 
+                  mainActionText={data.hero.extraActionText}
+                  extraActionText={data.hero.extraActionText}
                 />
                 
             </div>
@@ -66,9 +60,10 @@ const Home: NextPage = () => {
 
             <ButtonLead
               actionText={data.bottomLead.actionText}
-              extraActionText={data.bottomLead.extraActionText}
-              mainActionText={data.bottomLead.mainActionText}
-              description={data.bottomLead.description}
+  extraActionText={data.bottomLead.extraActionText}
+  mainActionText={data.bottomLead.mainActionText}
+  description={data.bottomLead.description}
+  link="https://www.google.com" // 구글 주소 링크 추가
             />
 
             <Footer logo={logo} />
