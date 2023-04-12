@@ -44,7 +44,7 @@ export const Footer = ({ logo }: IProps) => {
         }
       </div>
       <div className="mt-10 text-lg text-blue-800 lg:mt-0">
-          Copyright 2022 Gabriel Silva
+          Copyright 2022 치트마켓
       </div>
     </footer>
   );

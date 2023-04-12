@@ -15,12 +15,12 @@ const Home: NextPage = () => {
   return (
     <>
         <Head>
-          <title>Landing page Next</title>
+          <title>치트마켓 배그핵 서든핵 옵치핵 최저가판매</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"
-            content="Web site criado para portfólio."
+            content="국내 최저가 배그핵 서든핵 옵치핵 등 다양한 제품 최대보유중 정지없는 랭커용 방송용 슬롯제 최대할인 이벤트 24시간 고객센터 운영중"
           />
         </Head>
 
