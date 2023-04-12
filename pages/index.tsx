@@ -32,8 +32,12 @@ const Home: NextPage = () => {
                   appType={data.hero.appType}
                   tagLine={data.hero.tagLine}
                   description={data.hero.description}
-                  mainActionText={data.hero.mainActionText}
-                  extraActionText={data.hero.extraActionText}
+                  mainActionText={<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                  {data.hero.extraActionText}
+                </a>}
+                  extraActionText={<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                  {data.hero.extraActionText}
+                </a>}
                  
                 />
                 
