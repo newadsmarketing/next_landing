@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                   appType={data.hero.appType}
                   tagLine={data.hero.tagLine}
                   description={data.hero.description}
-                  mainActionText={data.hero.extraActionText}
+                  mainActionText={data.hero. mainActionText}
                   extraActionText={data.hero.extraActionText}
                 />
                 
