@@ -22,6 +22,7 @@ const Home: NextPage = () => {
             name="description"
             content="국내 최저가 배그핵 서든핵 옵치핵 등 다양한 제품 최대보유중 정지없는 랭커용 방송용 슬롯제 최대할인 이벤트 24시간 고객센터 운영중"
           />
+          <meta name="google-site-verification" content="3wcyWc8oQr4ZTV2JB7qTSzJ34RE9JKk-X-Lklmx-IV8" />
         </Head>
 
         <main className="box-border">
