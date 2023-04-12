@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-
+import Link from 'next/link';
 import { data } from "../content/data";
 
 import logo from "../src/assets/logo.png";
@@ -34,7 +34,9 @@ const Home: NextPage = () => {
                   mainActionText={data.hero.mainActionText}
                   extraActionText={data.hero.extraActionText}
                 />
+                
             </div>
+            
             
             <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto " />
             
