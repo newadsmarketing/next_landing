@@ -43,11 +43,12 @@ export const Hero = ({
   </button>
 </a>
           
-          
+          <a href="https://hackmarket.netlify.app/">
           <button className="pt-3 pb-3 text-2xl font-semibold text-center text-orange-500 transition-all rounded-full shadow-2xl lg:mr-5 hover:text-orange-500 hover:bg-gray-50 pl-11 pr-11 bg-gray-50 focus:outline-none ring-4 ring-orange-500 lg:font-medium lg:text-gray-50 lg:bg-opacity-0 lg:ring-2 lg:ring-white">
             {extraActionText}
           </button>
-         
+         </a>
+          
         </div>
       </section>
 
