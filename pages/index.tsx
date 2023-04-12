@@ -63,7 +63,7 @@ const Home: NextPage = () => {
   extraActionText={data.bottomLead.extraActionText}
   mainActionText={data.bottomLead.mainActionText}
   description={data.bottomLead.description}
-  link="https://www.google.com" // 구글 주소 링크 추가
+
             />
 
             <Footer logo={logo} />
