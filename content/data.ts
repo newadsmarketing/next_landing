@@ -6,11 +6,11 @@ import Rectangle_5 from "../src/assets/Rectangle_5.png";
 
 export const data: Data = {
   hero:{
-    appType: "치트마켓",
-    tagLine: "배그핵 서든핵 옵치핵 최저가보장",
-    description: "국내 최저가 배그핵 서든핵 옵치핵 등 다양한 제품 최대보유중 정지없는 랭커용 방송용 슬롯제 최대할인 이벤트 24시간 고객센터 운영중",
-    mainActionText: "바로가기",
-    extraActionText: "문의하기",
+    appType: "핵마켓",
+    tagLine: "배그핵 서든핵 옵치핵 게임 핵마켓",
+    description: "핵마켓 국내 최저가 배그핵 서든핵 옵치핵 등 다양한 제품 최대보유중 정지없는 랭커용 방송용 슬롯제 최대할인  24시간 고객센터 운영중",
+    mainActionText: "핵마켓 바로가기",
+    extraActionText: "텔레그램 문의하기",
   },
   listStep: [
     {
@@ -36,7 +36,7 @@ export const data: Data = {
     }
   ],
   bottomLead: {
-    actionText: "치트마켓 중요 이벤트 내용",
+    actionText: "핵마켓 중요 이벤트 내용",
     description: "신규 회원가입시 1000포인트 무료지급 ! 첫충전시 신청금액에 20% 추가 지급",
     mainActionText: "회원가입",
     extraActionText: "문의하기",

@@ -9,11 +9,11 @@ export const Footer = ({ logo }: IProps) => {
   const data: Data = {
     listIconsAndLinks: [
       {
-        path: "https://github.com/GabrielSS187/Landing-Page-Next",
+        path: "https://hackmarket.netlify.com",
         icon: <GithubLogo size={36} color="#ff7300" />
       },
       {
-        path: "https://www.linkedin.com/in/gabriel-silva-souza-developer",
+        path: "https://hackmarket.netlify.com",
         icon: <LinkedinLogo size={36} color="#ff7300" />
       },
       {
@@ -44,7 +44,7 @@ export const Footer = ({ logo }: IProps) => {
         }
       </div>
       <div className="mt-10 text-lg text-blue-800 lg:mt-0">
-          Copyright 2022 치트마켓
+          Copyright 2022 핵마켓
       </div>
     </footer>
   );
