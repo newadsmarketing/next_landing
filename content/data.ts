@@ -6,7 +6,7 @@ import Rectangle_5 from "../src/assets/Rectangle_5.png";
 
 export const data: Data = {
   hero:{
-    appType: "핵마켓",
+    appType: "게임핵마켓",
     tagLine: "배그핵 서든핵 옵치핵 게임 핵마켓",
     description: "핵마켓 국내 최저가 배그핵 서든핵 옵치핵 등 다양한 제품 최대보유중 정지없는 랭커용 방송용 슬롯제 최대할인  24시간 고객센터 운영중",
     mainActionText: "핵마켓 바로가기",
