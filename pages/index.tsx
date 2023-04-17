@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <>
         <Head>
-          <title>핵마켓 - 배그핵 서든핵 옵치핵 게임계정</title>
+          <title>배그핵|서든핵|옵치핵 [게임핵마켓]</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="theme-color" content="#000000" />
           <meta
